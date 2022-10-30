@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* @media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
+    {
+        float: left;
+    }
+      .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+    {
+        float: left;
+    }
+      .col-md-1 {
+        width: 8.33%;
+      }
+      .col-md-2 {
+        width: 16.66%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-5 {
+        width: 41.66%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-7 {
+        width: 58.33%;
+      }
+      .col-md-8 {
+        width: 66.66%;
+      }
+      .col-md-9 {
+        width: 74.99%;
+      }
+      .col-md-10 {
+        width: 83.33%;
+      }
+      .col-md-11 {
+        width: 91.66%;
+      }
+      .col-md-12 {
+        width: 100%;
+      }
+}
+
+@media (max-width: 767px) {
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
+    {
+        float: left;
+    }
+      .col-xs-1 {
+        width: 8.33%;
+      }
+      .col-xs-2 {
+        width: 16.66%;
+      }
+      .col-xs-3 {
+        width: 25%;
+      }
+      .col-xs-4 {
+        width: 33.33%;
+      }
+      .col-xs-5 {
+        width: 41.66%;
+      }
+      .col-xs-6 {
+        width: 50%;
+      }
+      .col-xs-7 {
+        width: 58.33%;
+      }
+      .col-xs-8 {
+        width: 66.66%;
+      }
+      .col-xs-9 {
+        width: 74.99%;
+      }
+      .col-xs-10 {
+        width: 83.33%;
+      }
+      .col-xs-11 {
+        width: 91.66%;
+      }
+      .col-xs-12 {
+        width: 100%;
+      }
+} */
+
+/** HEADER **/
+#header-nav {
+  background-color: #18453b;
+  border-radius: 0;
+  border: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 24px;
+}
+
+.navbar-brand {
+  padding-top: 24px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color:honeydew;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: honeydew;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid honeydew;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*Body*/
+.body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#heading1 {
+    color: #18453b;
+    font-weight: bold;
+    font-size: 175%;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.subheading1{
+    color: #0b54a8;
+    font-weight: medium;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.p1 {
+    color: #626262;
+    font-weight: light;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.toplink {
+  line-height: 48px;
+  color:#18453b;
+  margin-bottom: -16px;
+}
+
+.toplink a:hover, .toplink a:focus {
+  text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.section {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.title-region {
+    position: relative;
+    margin-left: auto;
+    margin-right: -17px;
+    margin-top: -1px;
+    margin-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid black;
+    width: fit-content;
+    min-width: 30%;
+}
+
+.block1 {background-color: #0396c3;}
+.block2 {background-color: #2270d7;}
+.block3 {background-color: #0b54a8;}
+
+@media (max-width:991px) {
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
