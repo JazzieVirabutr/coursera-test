@@ -165,10 +165,9 @@
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: honeydew;
-  text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #0396c3;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -232,6 +231,7 @@
     border: 1px solid black;
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: -16px;
 }
 
 .title-region {
