@@ -220,13 +220,14 @@
 
 .row {
     width: 100%;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .section {
-    margin-left: 16px;
-    margin-bottom: 16px;
+    margin: 8px;
     background-color: aliceblue;
     border: 1px solid black;
     padding-left: 48px;
